@@ -442,7 +442,7 @@
 
 // 50 and 100
 
-//console.log(Math.floor(Math.random() * 51) + 50);
+// console.log(Math.floor(Math.random() * 51) + 50);
 
 // Q31. Random Dice Roll
 
@@ -718,6 +718,7 @@
 // You can use the string methods you've learned so far along with Math.random().
 
 // Answer:-
+
 // const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@#$%^&*";
 // let result = "";
 
@@ -726,3 +727,4 @@
 //     result += alphabet[randomIndex];
 // }
 // console.log(result);
+
