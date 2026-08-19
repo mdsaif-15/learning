@@ -716,3 +716,13 @@
 // The password should contain 8 characters.
 
 // You can use the string methods you've learned so far along with Math.random().
+
+// Answer:-
+// const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@#$%^&*";
+// let result = "";
+
+// for (let i = 0; i < 8; i++) {
+//     const randomIndex = Math.floor(Math.random() * alphabet.length);
+//     result += alphabet[randomIndex];
+// }
+// console.log(result);
