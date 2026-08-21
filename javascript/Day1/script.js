@@ -600,29 +600,27 @@
 // Sort the array alphabetically
 
 
-// let fruits = [
-//     "apple",
-//     "banana",
-//     "mango",
-//     "orange",
-//     "banana",
-//     "grapes"
-// ];
+let fruits = [
+    "apple",
+    "banana",
+    "mango",
+    "orange",
+    "banana",
+    "grapes"
+];
 
-// fruits.splice(1, 1);
+fruits.splice(1, 1);
 
-// console.log(fruits);
+console.log(fruits);
 
-// fruits.splice(2, 0, "watermelon");
+fruits.splice(2, 0, "watermelon");
 
-
-
-// for (let i = 0; i < fruits.length; i++) {
-//     if (fruits[i] == "banana") {
-//         fruits[i] = "watermelon";
-//     }
-// }
-// console.log(fruits);
+for (let i = 0; i < fruits.length; i++) {
+    if (fruits[i] == "banana") {
+        fruits[i] = "watermelon";
+    }
+}
+console.log(fruits);
 
 // Q38. Mini Student Database
 
@@ -719,12 +717,12 @@
 
 // Answer:-
 
-// const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@#$%^&*";
-// let result = "";
+const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@#$%^&*";
+let result = "";
 
-// for (let i = 0; i < 8; i++) {
-//     const randomIndex = Math.floor(Math.random() * alphabet.length);
-//     result += alphabet[randomIndex];
-// }
-// console.log(result);
+for (let i = 0; i < 8; i++) {
+    const randomIndex = Math.floor(Math.random() * alphabet.length);
+    result += alphabet[randomIndex];
+}
+console.log(result);
 
