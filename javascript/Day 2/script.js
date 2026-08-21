@@ -191,3 +191,26 @@
 
 // Answer :- because it is defined in side inner function.
 
+// Q10. Function as an Argument
+
+// Create a function:
+
+// function repeatTask(task, n) {
+
+// }
+// It should execute the task function n times.
+
+// Example:
+
+// let sayHello = function () {
+//     console.log("Hello");
+// };
+
+// repeatTask(sayHello, 5);
+// Expected:
+
+// Hello
+// Hello
+// Hello
+// Hello
+// Hello
