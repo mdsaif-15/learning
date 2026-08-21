@@ -214,3 +214,271 @@
 // Hello
 // Hello
 // Hello
+
+// function sayHello() {
+//     console.log("hello");
+// }
+
+// function repeatTask(task, n) {
+//     for (let i = 1; i <= n; i++) {
+//         task(n);
+//     }
+// }
+// repeatTask(sayHello, 5)
+
+// repeatTask(sayHello, 5);
+
+// Q11. Calculator Using Higher-Order Function
+
+// Create:
+
+// function calculate(a, b, operation) {
+
+// }
+// The operation function should determine what calculation is performed.
+
+// Example:
+
+// calculate(10, 5, add);
+// calculate(10, 5, subtract);
+// calculate(10, 5, multiply);
+// Create the three operation functions yourself.
+
+// function calculate(a, b, operation) {
+//     return operation(a, b);
+
+// }
+// function add(a, b) {
+//     return a + b;
+
+// }
+// function subtract(a, b) {
+//     return a - b;
+
+// }
+// function multiply(a, b) {
+//     return a * b;
+
+// }
+// console.log(calculate(5, 4, multiply));
+
+
+
+// Q12. Even / Odd Function Factory
+
+// Create a function:
+
+// function checkNumber(type) {
+
+// }
+// It should return a function.
+
+// Example:
+
+// let checkEven = checkNumber("even");
+
+// checkEven(10);  // true
+// checkEven(7);   // false
+// Similarly:
+
+// let checkOdd = checkNumber("odd");
+
+// Answer :-
+
+// function checkNumber(type) {
+//     if (type % 2 == 0) {
+//         return true;
+//     }
+//     else
+//         return false;
+
+// }
+
+// let checkOdd = checkNumber(4);
+// console.log(checkOdd);
+
+
+// Q13. Greater Than Function Factory
+
+// Create:
+
+// function greaterThan(n) {
+
+// }
+// It should return a function that checks whether another number is greater than n.
+
+// Example:
+
+// let greaterThan10 = greaterThan(10);
+
+// console.log(greaterThan10(15)); // true
+// console.log(greaterThan10(5));  // false
+
+// function greaterThan(n) {
+//     if (n > 10) {
+//         return true;
+//     }
+//     else {
+//         return false;
+//     }
+// }
+
+// let greaterThan10 = greaterThan(10);
+// console.log(greaterThan10(15));
+// console.log(greaterThan10(5));
+
+// Q14. Custom Filter Function
+
+// Create your own version of filter():
+
+// function myFilter(arr, condition) {
+
+// }
+// Example:
+
+// let numbers = [1, 2, 3, 4, 5, 6];
+
+// let result = myFilter(numbers, function(num) {
+//     return num % 2 === 0;
+// });
+
+// console.log(result);
+// Expected:
+
+// [2, 4, 6]
+// Do not use the built-in .filter() method.
+
+// function myFilter(arr, condition) {
+
+// }
+// let numbers = [1, 2, 3, 4, 5, 6];
+
+// let result = myFilter(numbers,function(num)){
+//     return num %2 === 0;
+// }
+// console.log(result);
+
+// Q15. Student Object
+
+// Create a student object containing:
+
+// name
+// marks1
+// marks2
+// marks3
+// getTotal()
+// getAverage()
+// Example:
+
+// student.getTotal();
+// student.getAverage();
+
+// Answer :-
+
+// let student = {
+//     name: "saif",
+//     Marks1: 90,
+//     Marks2: 80,
+//     Marks3: 95,
+//     getTotal: function (Marks1, Marks2, Marks3) {
+//         return Marks1 + Marks2 + Marks3;
+//     },
+//     getAverage: function (getTotal) {
+//         return getTotal() / 3;
+//     }
+
+// }
+// console.log(student.getTotal());
+// console.log(student.getAverage());
+
+
+
+
+// Q21. Scope + Higher-Order Function
+
+// Predict the output:
+
+// let x = 10;
+
+// function outer() {
+//     let x = 20;
+
+//     function test() {
+//         console.log(x);
+//     }
+
+//     return test;
+// }
+
+// let func = outer();
+
+// func();
+// Important: Explain why func() prints 20 even though outer() has already finished executing.
+
+// Answer :- 20.
+
+// Q18. Basic this
+
+// Predict the output:
+
+// const person = {
+//     name: "Dibyo",
+
+//     introduce() {
+//         console.log(this.name);
+//     }
+// };
+
+// person.introduce();
+// Task: Explain what this refers to.
+
+// Answer :- this refers to person.
+
+// Q19. Multiple Properties with this
+
+// Create:
+
+// const employee = {
+//     name: "John",
+//     salary: 50000,
+//     bonus: 10000,
+
+//     getTotalSalary() {
+//         // use this
+//     }
+// };
+
+// Answer :-
+
+// const employee = {
+//     name: "John",
+//     salary: 50000,
+//     bonus: 10000,
+
+//     getTotalSalary() {
+//         // use this
+//         return this.salary + this.bonus
+//     }
+// };
+
+// console.log(this.getTotalSalary);
+
+// Q20. this and Object Methods
+
+// Predict the output:
+
+// const user = {
+//     name: "Dibyo",
+
+//     greet() {
+//         console.log("Hello " + this.name);
+//     }
+// };
+
+// user.greet();
+// Then answer:
+// Output :- Hello Dibyo
+
+// Why is this.name better than directly writing user.name inside the method?
+// Answer:- this can ascess drictly to method.
+
