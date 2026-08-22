@@ -549,7 +549,7 @@ const student = {
         return a + b + c;
     },
     getAverage: function (a, b, c) {
-        return (a + b + c) / 3;
+        return a + b + c / 3;
     },
     getHighest: function (a, b, c) {
         if (a > b && a > c) {
@@ -576,7 +576,7 @@ let highestMarks = student.calculate
         student.marks[2]
     );
 
-//console.log(highestMarks);
+console.log(highestMarks);
 
 let avgMarks = student.calculate
     (
@@ -586,7 +586,7 @@ let avgMarks = student.calculate
         student.marks[2],
     )
 
-//console.log(avgMarks);
+console.log(avgMarks);
 
 let totalMarks = student.calculate(
     student.getTotal,
@@ -594,4 +594,4 @@ let totalMarks = student.calculate(
     student.marks[0],
     student.marks[0]
 )
-// console.log(totalMarks);
+console.log(totalMarks);
