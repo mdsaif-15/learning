@@ -353,9 +353,9 @@
 // }
 // let numbers = [1, 2, 3, 4, 5, 6];
 
-// let result = myFilter(numbers,function(num)){
-//     return num %2 === 0;
-// }
+// let result = myFilter(numbers, function (num){
+//     return num % 2 === 0
+// })
 // console.log(result);
 
 // Q15. Student Object
@@ -482,3 +482,116 @@
 // Why is this.name better than directly writing user.name inside the method?
 // Answer:- this can ascess drictly to method.
 
+// Q23. Object + Higher-Order Function
+
+// Create an object:
+
+// const calculator = {
+//     calculate(a, b, operation) {
+//         // your code
+//     }
+// };
+// It should support:
+
+// calculator.calculate(10, 5, add);
+// calculator.calculate(10, 5, subtract);
+// calculator.calculate(10, 5, multiply);
+
+// Answer :-
+
+// const calculator = {
+//     calculate(a, b, operation) {
+//         return operation(a, b);
+//     }
+// };
+
+// function add(a, b) {
+//     return a + b;
+// }
+// function subtract(a, b) {
+//     return a - b;
+// }
+// function multiply(a, b) {
+//     return a * b;
+// }
+
+// console.log(calculator.calculate(10, 5, add));
+// console.log(calculator.calculate(10, 5, subtract));
+// console.log(calculator.calculate(10, 5, multiply));
+
+// Q24. Student Result System 🔥
+
+// Create:
+
+// const student = {
+//     name: "Dibyo",
+//     marks: [80, 90, 70],
+
+//     calculate(operation) {
+//         // your code
+//     }
+// };
+// Create separate functions:
+
+// getTotal
+// getAverage
+// getHighest
+// Pass them into:
+
+// student.calculate(...)
+// Use this.marks inside the object method.
+
+const student = {
+    name: "Dibyo",
+    marks: [80, 90, 70],
+
+    getTotal: function (a, b, c) {
+        return a + b + c;
+    },
+    getAverage: function (a, b, c) {
+        return (a + b + c) / 3;
+    },
+    getHighest: function (a, b, c) {
+        if (a > b && a > c) {
+            return a;
+        }
+        else if (b > c) {
+            return b;
+        }
+        else {
+            return c;
+        }
+    },
+
+    calculate(operation, ...arg) {
+        return operation(...arg);
+    }
+};
+
+let highestMarks = student.calculate
+    (
+        student.getHighest,
+        student.marks[0],
+        student.marks[1],
+        student.marks[2]
+    );
+
+//console.log(highestMarks);
+
+let avgMarks = student.calculate
+    (
+        student.getAverage,
+        student.marks[0],
+        student.marks[1],
+        student.marks[2],
+    )
+
+//console.log(avgMarks);
+
+let totalMarks = student.calculate(
+    student.getTotal,
+    student.marks[0],
+    student.marks[0],
+    student.marks[0]
+)
+// console.log(totalMarks);
