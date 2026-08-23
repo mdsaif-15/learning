@@ -281,5 +281,87 @@ let numbers = [4, 8, 15, 16, 23, 42];
 // }
 // greetUser();
 
-// Q20. Write a function calculatePrice(price, tax = 0.05) 
+// Q21. Write a function calculatePrice(price, tax = 0.05) 
 // that returns the price including tax.
+
+
+// const calculatePrice = (price, tax = 0.05) => {
+//     let taxAmount = price * tax;
+//     let finalPrice = price + taxAmount;
+//     return finalPrice;
+// }
+
+// console.log(calculatePrice(1000));
+
+// Q22.Challenge: Write a function createProfile(name, age = 18, city = "Unknown") 
+// and call it three different ways — with 1, 2, and 3 
+// arguments — to show how defaults kick in.
+
+// let createProfile = (name, age = 18, city = "Unknown") => {
+//     let speech = "My name is " + name + " my age is " + age + ". I live in " + city + " city";
+//     return speech;
+// }
+
+// console.log(createProfile("saif"));
+// console.log(createProfile("saif", 20));
+// console.log(createProfile("saif", 20, "Jashpur"));
+
+// Q23. Given let arr = [3, 7, 1, 9, 2];, 
+// use the spread operator with Math.max and Math.min to 
+// find the largest and smallest values.
+
+// Answer:-
+
+// let arr = [3, 7, 1, 9, 2];
+// console.log(Math.min(...arr));
+// console.log(Math.max(...arr));
+
+// Q24. Use the spread operator to combine two arrays let fruits = ["apple", "banana"]; 
+// and let veggies = ["carrot", "peas"]; 
+// into one array called food.
+
+// Ansawer:-
+
+// let fruits = ["apple", "banana"];
+// let veggies = ["carrot", "peas"];
+
+// let newArray = [].push(...fruits, ...veggies);
+// console.log(newArray);
+
+// Q25. Use the spread operator to create a copy of an object 
+// let user = { name: "Amit", age: 25 }; called userCopy, 
+// then change userCopy.age and confirm user.age is unaffected.
+
+// Answer :-
+
+// let user = { name: "Amit", age: 25 };
+
+// let copyUser = { ...user };
+// console.log(copyUser);
+
+// copyUser.age = 27;
+// console.log(user);
+// console.log(copyUser);
+
+// Q26. Challenge: Use spread to split a string "javascript" 
+// into an array of individual characters.
+
+// Answer:-
+// let l = "javascript";
+// console.log(...l);
+
+// Q27. Write a function sumAll(...nums) 
+// that returns the sum of any number of arguments passed to it.
+
+// Answer:-
+
+// let nums = [1, 2, 3, 4, 5, 6, 7];
+// const sumAll = (...nums) => {
+//     return nums[0] + nums[1] + nums[2] + nums[3] + nums[4] + nums[5] + nums[7];
+// }
+
+// console.log(sumAll());
+
+// Q28. Write a function introduce(firstName, lastName, ...hobbies) 
+// that logs the full name and then lists all hobbies passed in.
+
