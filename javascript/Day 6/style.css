@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 75px;
+
+    height: 600px;
+    width: 800px;
+    background-color: rgb(237, 245, 176);
+    border-radius: 20px;
+}
+
+.loadingbar {
+    height: 30px;
+    width: 700px;
+    background-color: lightgreen;
+    border-radius: 50px;
+}
+
+button {
+    position: relative;
+    top: 30px;
+    background-color: lightgreen;
+    border: none;
+    height: 20px;
+    width: 90px;
+    border-radius: 20px;
+    margin-left: 600px;
+}
+p{
+    position: relative;
+    top: 40px;
+    right: 310px;
+    
+}
