@@ -30,8 +30,7 @@ body {
 }
 
 button {
-    position: relative;
-    top: 30px;
+
     background-color: lightgreen;
     border: none;
     height: 20px;
@@ -39,9 +38,10 @@ button {
     border-radius: 20px;
     margin-left: 600px;
 }
-p{
-    position: relative;
-    top: 40px;
-    right: 310px;
-    
+
+.inner-loader {
+    height: 30px;
+    width: 0px;
+    background-color: rgb(144, 238, 144, 0.4);
+    border-radius: 50px;
 }
