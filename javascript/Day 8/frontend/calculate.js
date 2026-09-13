@@ -3,7 +3,10 @@ import output from "./output.js";
 import submitButton from "./submitButton.js";
 
 const calculate = () => {
-    const number = document.querySelector(".input");
+    //const number = document.querySelector(".input");
+    // submitButton.addEventListener("click", function () {
+    //     console.log(number);
+    // })
 
 }
 export default calculate;
