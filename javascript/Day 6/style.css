@@ -57,6 +57,6 @@ button {
     border-radius: 20px;
 }
 
-/* .btn:active {
+.btn:active {
     scale: 0.9;
-} */
+}
