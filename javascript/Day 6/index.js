@@ -11,14 +11,11 @@ btn.addEventListener("click", function () {
         a++;
         p.innerHTML = a + "%";
         innerDiv.style.width = `${a}%`;
-
     }, c * 10);
     setTimeout(() => {
         clearInterval(intervalid);
         btn.innerHTML = "downloaded";
         btn.style.opacity = "0.5";
         console.log("downloaded in " + b + "secs...")
-
     }, c * 1000);
-
 });
