@@ -61,25 +61,63 @@
 
 // Question 11
 
-let setPasswd = prompt("Create a password");
-let newSetPasswd = setPasswd.trim();
-let regex = /^(?=.*[0-9])(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}$/;
-if (regex.test(newSetPasswd)) {
-    console.log("Valid Password");
-} else {
-    console.log("Invalid Password");
-}
-let count = 0;
-while (true) {
-    let userPasswd = prompt("Enter password to Enter ");
-    let newpasswd = userPasswd.trim();
-    count++;
-    if (count == 3) {
-        console.log("Account locked");
-        break
-    } else if (newSetPasswd === newpasswd) {
-        console.log("correct password");
-    } else {
-        console.log("invalid password");
+// let setPasswd = prompt("Create a password");
+// let newSetPasswd = setPasswd.trim();
+// let regex = /^(?=.*[0-9])(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}$/;
+// if (regex.test(newSetPasswd)) {
+//     console.log("Valid Password");
+// } else {
+//     console.log("Invalid Password");
+// }
+// let count = 0;
+// while (true) {
+//     let userPasswd = prompt("Enter password to Enter ");
+//     let newpasswd = userPasswd.trim();
+//     count++;
+//     if (count == 3) {
+//         console.log("Account locked");
+//         break
+//     } else if (newSetPasswd === newpasswd) {
+//         console.log("correct password");
+//     } else {
+//         console.log("invalid password");
+//     }
+// }
+
+// Question 12
+// let count = 0;
+// while (1) {
+//     input = prompt("Type A words Yes or Stop ");
+//     newInput = input.trim().toUpperCase();
+//     if (newInput === "YES") {
+//         count++;
+//     } else if (newInput === "STOP") {
+//         break
+//     } else {
+//         console.log("Invalid Input");
+//     }
+// } console.log("The number of times you enter 'YES': " + count)
+
+// Question 13 Print numbers divisible by 7 from 1 to 50 Use modulo % and loop.
+
+
+// let i = 1;
+// while (i < 50) {
+//     if (i % 7 == 0) {
+//         console.log(i);
+//     }
+//     i++;
+// }
+
+// Question 14 Sum of all odd numbers from 1 to 30 Add only odd numbers. Print final sum.
+
+let i = 1;
+let sum = 0;
+while (i < 30) {
+    if (i % 2 == 0) {
+        sum += i;
     }
+    i++;
 }
+console.log("The total sum :" + sum);
+
