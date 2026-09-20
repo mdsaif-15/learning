@@ -33,41 +33,53 @@
 // console.log(count)
 
 // Question 10 
-let setPasswd = prompt("Create a password");;
 
-let regex = /^(?=.*[0-9])(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}$/;
+
+// let setPasswd = prompt("Create a password");
+
+// let regex = /^(?=.*[0-9])(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}$/;
+// let newSetPasswd = setPasswd.trim();
+// if (regex.test(newSetPasswd)) {
+//     console.log("Valid Password");
+// } else {
+//     console.log("Invalid Password");
+// }
+// let userPasswd = prompt("Enter password to Enter ");
+// let newpasswd = userPasswd.trim();
+
+// if (regex.test(newpasswd)) {
+//     console.log("Valid Password");
+// } else {
+//     console.log("Invalid Password");
+// }
+// // console.log(newpasswd);
+// if (newSetPasswd === newpasswd) {
+//     console.log("correct password");
+// } else {
+//     console.log("Invalid password")
+// }
+
+// Question 11
+
+let setPasswd = prompt("Create a password");
 let newSetPasswd = setPasswd.trim();
+let regex = /^(?=.*[0-9])(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}$/;
 if (regex.test(newSetPasswd)) {
     console.log("Valid Password");
 } else {
     console.log("Invalid Password");
 }
-let userPasswd = prompt("Enter password to Enter ");
-let newpasswd = userPasswd.trim();
-
-if (regex.test(newpasswd)) {
-    console.log("Valid Password");
-} else {
-    console.log("Invalid Password");
+let count = 0;
+while (true) {
+    let userPasswd = prompt("Enter password to Enter ");
+    let newpasswd = userPasswd.trim();
+    count++;
+    if (count == 3) {
+        console.log("Account locked");
+        break
+    } else if (newSetPasswd === newpasswd) {
+        console.log("correct password");
+    } else {
+        console.log("invalid password");
+    }
 }
-// console.log(newpasswd);
-if (newSetPasswd === newpasswd) {
-    console.log("correct password");
-} else {
-    console.log("Invalid password")
-}
-
-// Question 11
-
-// let setPasswd = prompt("Create a password");
-// let newSetPasswd = setPasswd.trim();
-// let count = 0;
-// while(true){
-//     let userPasswd = prompt("Enter password to Enter ");
-//     let newpasswd = userPasswd.trim();
-//     count ++;
-//     if(count==3){
-//         console.log("Account locked");
-//         break
-//     }else if()
-// }
