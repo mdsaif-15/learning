@@ -136,4 +136,8 @@
 // Quention 16 Print numbers between two user inputs 
 // Input start and end using prompt() → print all between.
 
-m = prompt("Enter ");
+m = Number(prompt("Enter lower limit"));
+n = Number(prompt("Enter Higher limit"));
+for (m; m <= n; m++) {
+    console.log(m);
+}
