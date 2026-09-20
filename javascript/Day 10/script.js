@@ -111,13 +111,29 @@
 
 // Question 14 Sum of all odd numbers from 1 to 30 Add only odd numbers. Print final sum.
 
-let i = 1;
-let sum = 0;
-while (i < 30) {
-    if (i % 2 == 0) {
-        sum += i;
-    }
-    i++;
-}
-console.log("The total sum :" + sum);
+// let i = 1;
+// let sum = 0;
+// while (i < 30) {
+//     if (i % 2 == 0) {
+//         sum += i;
+//     }
+//     i++;
+// }
+// console.log("The total sum :" + sum);
 
+// Question 15 Keep asking number until user enters an even number Use while loop. 
+// Stop only if input is even.
+
+// while (1) {
+//     let input = prompt("Enter even number only ?");
+//     let numInput = Number(input);
+//     if (numInput % 2 == 0) {
+//         console.log("You have Enter even");
+//         break;
+//     }
+// }
+
+// Quention 16 Print numbers between two user inputs 
+// Input start and end using prompt() → print all between.
+
+m = prompt("Enter ");
