@@ -136,8 +136,43 @@
 // Quention 16 Print numbers between two user inputs 
 // Input start and end using prompt() → print all between.
 
-m = Number(prompt("Enter lower limit"));
-n = Number(prompt("Enter Higher limit"));
-for (m; m <= n; m++) {
-    console.log(m);
-}
+// m = Number(prompt("Enter lower limit"));
+// n = Number(prompt("Enter Higher limit"));
+// for (m; m <= n; m++) {
+//     console.log(m);
+// }
+
+// Question 17 Print only first 3 odd numbers from 1 to 20
+// Use loop. Stop with break after 3 odd prints.
+
+
+// let count = 0;
+// for (let i = 1; i <= 20; i++) {
+//     if(i%2!=0){
+//         console.log(i);
+//         count++;
+//     }
+//     if(count == 3){
+//         break;
+//     }
+// }
+
+// Quention 18 Ask user 5 numbers. Count how many are positive
+// Use loop + condition + counter.
+
+// let positivecount = 0, count = 0;
+// while (1) {
+//     let input = Number(prompt("Enter a number : "));
+//     if (input > 0) {
+//         positivecount++;
+//     } count++;
+//     if (count == 5) {
+//         break;
+//     }
+// }
+// console.log(positivecount)
+
+// Question 19 ATM Simulator – Allow 3 withdrawals
+// Start with ₹1000 balance. Ask withdrawal amount 3 times.
+// If enough balance → deduct
+// Else → print “Insufficient balance”
