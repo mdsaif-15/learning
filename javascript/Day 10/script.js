@@ -176,3 +176,17 @@
 // Start with ₹1000 balance. Ask withdrawal amount 3 times.
 // If enough balance → deduct
 // Else → print “Insufficient balance”
+
+// let count = 0;
+// let balance = 1000;
+// alert("you can only withdrawal 3 times!");
+// while (count <= 2) {
+//     let wAmount = Number(prompt("Enter amount you withdrawal"));
+//     balance -= wAmount;
+//     count++;
+//     if (balance < 0) {
+//         console.log("Insufficant balance!!");
+//         break
+//     }
+//     console.log("left Balance = " + balance);
+// }
