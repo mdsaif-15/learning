@@ -190,3 +190,72 @@
 //     }
 //     console.log("left Balance = " + balance);
 // }
+
+// Question 20 Create a number guessing game where 
+// the user must guess a random number between 1–20 
+// within 5 attempts. Use Math.random(), a loop for attempts, 
+// and compare the guess with the target number.
+
+
+// let number = Math.floor(Math.random() * 20);
+// console.log(number);
+
+// let count = 0;
+// alert("You have only 5 attempts");
+// while (count <= 4) {
+//     guessNumber = Number(prompt("guess the number "));
+
+//     if (guessNumber === number) {
+//         console.log("win the game");
+//         break;
+//     } else {
+//         console.log("guess again");
+//     }
+//     count++;
+// }
+
+// Question 21 Build a calculator that keeps running until 
+// the user types "exit". Use a while loop and switch 
+// statement for + - * / operations.
+
+// const div = () => {
+//     let a = Number(prompt("enter a number"));
+//     let b = Number(prompt("enter a number"));
+//     return a / b;
+// }
+// const mul = () => {
+//     let a = Number(prompt("enter a number"));
+//     let b = Number(prompt("enter a number"));
+//     return a * b;
+// }
+// const sub = () => {
+//     let a = Number(prompt("enter a number"));
+//     let b = Number(prompt("enter a number"));
+//     return a - b;
+// }
+// const add = () => {
+//     let a = Number(prompt("enter a number"));
+//     let b = Number(prompt("enter a number"));
+//     return a + b;
+// }
+// while (true) {
+//     let input = prompt("enter your opration '+','-','*','/','exit' to exit :");
+//     let newInput = input.trim();
+//     if (newInput === "+") {
+//         console.log(add());
+//     } else if (newInput === "-") {
+//         console.log(sub());
+//     } else if (newInput === "*") {
+//         console.log(mul());
+//     } else if (newInput === "/") {
+//         console.log(div());
+//     } else if (newInput === "exit") {
+//         break;
+//     } else {
+//         console.log("Invalid Input");
+//     }
+// }
+
+// Question 22 Ask the user to input marks of 5 subjects and determine 
+// total, average, and grade. Store marks in an array and use conditions 
+// for grading.
