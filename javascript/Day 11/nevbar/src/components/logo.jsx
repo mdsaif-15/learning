@@ -1,6 +1,6 @@
-const Logo = ()=>{
-    return(<>
-    <div className="logo"></div>
+const Logo = ({ logo }) => {
+    return (<>
+        <div className="logo">{logo}</div>
     </>)
 }
 export default Logo;

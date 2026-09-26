@@ -1,7 +1,7 @@
-const Nevigation = ()=>{
+const Nevigation = ({ nevigation }) => {
     return (<>
-    <div className="nevigation">
-    </div>
+        <div className="nevigation">{nevigation}
+        </div>
     </>)
 }
 export default Nevigation;

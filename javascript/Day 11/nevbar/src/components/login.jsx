@@ -1,10 +1,12 @@
-const Login = () => {
+const Login = ({ login }) => {
     return (
         <>
             <div className="login">
-                <button className="button">
-
-                </button>
+                {login.map((login) => {
+                    return <a key={login} href="#">
+                        {login}
+                    </a>
+                })}
             </div>
         </>);
 }
