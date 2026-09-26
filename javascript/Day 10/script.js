@@ -259,3 +259,32 @@
 // Question 22 Ask the user to input marks of 5 subjects and determine 
 // total, average, and grade. Store marks in an array and use conditions 
 // for grading.
+
+let maths = Number(prompt("Enter number of maths"));
+let sceince = Number(prompt("Enter number of sceince"));
+let evs = Number(prompt("Enter number of evs"));
+let hindi = Number(prompt("Enter number of hindi"));
+let sst = Number(prompt("Enter number of sst"));
+
+const avg = (maths, sceince, evs, hindi, sst) => {
+    return (maths + sceince + evs + hindi + sst) / 5;
+}
+const total = (maths, sceince, evs, hindi, sst) => {
+    return maths + sceince + evs + hindi + sst;
+}
+
+let avgMarks = avg();
+
+const grade = (avgMarks) => {
+    if (avgMarks < 100 && avgMarks >= 80) {
+        console.log("A+ grade");
+    }else if(avgMarks<80 && avgMarks>=60){
+        console.log("A grade");
+    }else if(avgMarks<60 && avgMarks>=40){
+        console.log("B grade");
+    }else if(avgMarks<40 && avgMarks>=0){
+        console.log("Fail");
+    }else{
+        console.log
+    }
+}
