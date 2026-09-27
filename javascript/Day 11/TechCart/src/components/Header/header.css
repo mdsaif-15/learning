@@ -1,0 +1,31 @@
+* {}
+
+.MainNavBar {
+    padding: 10px;
+    width: auto;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.logo {
+    color: white;
+    width: 20%;
+}
+
+.NavBar {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NevItem {
+    color: white;
+    text-decoration: none;
+}
+.loginButton{
+    margin-right: 5px;
+}

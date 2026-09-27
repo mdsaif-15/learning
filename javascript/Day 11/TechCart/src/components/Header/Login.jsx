@@ -1,8 +1,8 @@
+import "./header.css";
+
 const Login = () => {
     return (<>
-        <div className="btnBox">
-            <button className="button">login</button>
-        </div>
+        <a className="NevItem loginButton" href="#">login</a>
     </>)
 }
 
