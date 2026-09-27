@@ -20,7 +20,7 @@
 }
 
 .NavBar {
-    width: 50%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
 }
@@ -32,4 +32,15 @@
 
 .loginButton {
     margin-right: 5px;
+}
+.Search{
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    
+}
+input::placeholder{
+    color: black;
+    font-size: small;
+    opacity: 0.3;
 }
