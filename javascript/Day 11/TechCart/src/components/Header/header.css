@@ -1,4 +1,7 @@
-* {}
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 .MainNavBar {
     padding: 10px;
@@ -26,6 +29,7 @@
     color: white;
     text-decoration: none;
 }
-.loginButton{
+
+.loginButton {
     margin-right: 5px;
 }
