@@ -25,8 +25,8 @@ const ProductCard = ({ ProductList }) => {
                     {ProductList.rateing}
                 </div>
 
-                <div className="stock">
-                    {ProductList.stock}
+                <div className={ProductList.stock ? "stock-in-stock" : "stock-out-stock"}>
+                    {ProductList.stock ? "In stock" : "Out of stock"}
                 </div>
 
             </div>
