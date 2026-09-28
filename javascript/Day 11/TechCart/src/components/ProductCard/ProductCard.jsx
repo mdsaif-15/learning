@@ -1,28 +1,37 @@
-import "./Style/ProductCart.css"
-const ProductCard = () => {
-    let image = "src/project image/Mechanical Keyboard.jpg"
-    let productName = "Mechanical Keyboard";
-    let productType = "Accessories";
-    let price = `₹ ${2099}`
-    let rateing = `⭐ ${4.9}`
-    return (<>
-        <div className="ProductGrid">
-            <div className="Imagebox">
-                <img src={image} alt="" />
+import "./Style/ProductCart.css";
+
+const ProductCard = ({ ProductList }) => {
+    return (
+        <>
+            <div className="ProductGrid">
+
+                <div className="Imagebox">
+                    <img src={ProductList.Image} alt={ProductList.productName} />
+                </div>
+
+                <div className="productName">
+                    {ProductList.productName}
+                </div>
+
+                <div className="productType">
+                    {ProductList.productType}
+                </div>
+
+                <div className="price">
+                    {ProductList.price}
+                </div>
+
+                <div className="rateing">
+                    {ProductList.rateing}
+                </div>
+
+                <div className="stock">
+                    {ProductList.stock}
+                </div>
+
             </div>
-            <div className="productName">
-                {productName}
-            </div>
-            <div className="productType">
-                {productType}
-            </div>
-            <div className="price">
-                {price}
-            </div>
-            <div className="rateing">
-                {rateing}
-            </div>
-        </div>
-    </>)
-}
+        </>
+    );
+};
+
 export default ProductCard;
