@@ -6,7 +6,6 @@ const ProductCard = () => {
     return (<>
         <div className="ProductGrid">
             <div className="Imagebox">
-
             </div>
             {productName}
             {productType}

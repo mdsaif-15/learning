@@ -13,7 +13,7 @@ const Navigation = () => {
                 New Deals
             </a>
             <div className="SearchBox">
-                <input className="Search" placeholder="🔍︎Search">
+                <input className="Search" placeholder="⌕Search">
 
                 </input>
             </div>
