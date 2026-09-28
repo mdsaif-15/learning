@@ -1,3 +1,4 @@
+import "./Style/ProductCart.css"
 const ProductCard = () => {
     let productName = "Mechanical Keyboard";
     let productType = "Accessories";
