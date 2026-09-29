@@ -8,6 +8,7 @@ const ProductCard = ({ ProductList }) => {
                 <div className="Imagebox">
                     <img src={ProductList.Image} alt={ProductList.productName} />
                 </div>
+                <hr className="hr"/>
 
                 <div className="productName">
                     {ProductList.productName}
