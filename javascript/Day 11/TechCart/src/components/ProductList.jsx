@@ -21,7 +21,7 @@ const ProductList = () => {
             stock: false
         },
         {
-            Image: "src/project image/Gaming Headset.jpg",
+            Image: "src/project image/image.png",
             productName: "Gaming Headset",
             productType: "Audio",
             price: "₹ 999",
