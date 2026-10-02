@@ -5,9 +5,6 @@ const App = () => {
 
   const students = [12, 34, 20, 40, 23];
 
-  students.map((student, key) => {
-
-  })
   const increment = () => {
     setCount(count + 1);
     //console.log(count)
