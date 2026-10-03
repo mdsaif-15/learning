@@ -1,15 +1,17 @@
 import StudentCart from "./StudentCart";
 
 const StudentList = () => {
-    let students = [12, 13, 50, 24, 45, 35, 25];
+    let students = [12, 13, 0, 24, 45, 35, 25, 23, 9];
 
     return (<>
         <div>
             {students.map((student, index) => {
-                <StudentCart
-                    key={index}
-                    StudentList={student}
-                />
+                return (
+                    <StudentCart
+                        index={index}
+                        StudentList={student}
+                    />
+                );
             })}
         </div>
     </>);
