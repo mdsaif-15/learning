@@ -12,6 +12,8 @@
     height: 30px;
     margin: 10px;
     background-color: #000;
+    border-radius: 15px;
+    border: none;
     color: white;
 
 }
