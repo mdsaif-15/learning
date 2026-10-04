@@ -1,0 +1,20 @@
+.MainContener{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-left: 300px;
+    border: 1px dashed black;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: #000;
+    color: white;
+
+}
+h2{
+    margin: 10px;
+}

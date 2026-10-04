@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./StudentCart.css"
 const StudentCart = ({ StudentList = 0, index = 0 }) => {
     const [count, setCount] = useState(StudentList);
 
@@ -11,7 +11,7 @@ const StudentCart = ({ StudentList = 0, index = 0 }) => {
 
     return (
         <div className="MainContener">
-            <h1 className="StudentMarks">Student {index + 1} : Marks - {count}</h1>
+            <h2 className="StudentMarks">Student {index + 1} : Marks - {count}</h2>
             <button className="btn" onClick={increment}>Increment</button>
         </div>
     );
