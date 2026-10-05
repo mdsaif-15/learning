@@ -9,6 +9,7 @@ const StudentList = () => {
                 return (
                     <StudentCart
                         index={index}
+                        key={index}
                         StudentList={student}
                     />
                 );
