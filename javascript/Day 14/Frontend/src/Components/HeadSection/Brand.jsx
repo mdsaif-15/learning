@@ -1,3 +1,4 @@
+import "./HeadSection.css"
 const Brand = () => {
     return (<>
         <div className="brand-name">

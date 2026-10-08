@@ -1,3 +1,4 @@
+import "./HeadSection.css"
 import LightModeButton from "./LightModeButton.jsx"
 import Brand from "./Brand.jsx"
 import MovieButton from "./MovieButton.jsx"

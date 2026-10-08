@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.brand-name {
+    color: red;
+
+}
+
+.head-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .light-mode-box {
+    height: 20px;
+    background-color: #260d52df;
+    height: 50px;
+    width: 30px;
+} */
+
+.light-mode-icon {
+    font-size: x-large;
+    background-color: #260d52df;
+    border: none;
+    color: white;
+}
