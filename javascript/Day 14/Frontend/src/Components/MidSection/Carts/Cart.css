@@ -1,0 +1,8 @@
+.cart{
+    display: grid;
+    height:250px ;
+    width: 150px;
+    border: solid black 1px;
+    border-radius: 15px;
+    margin: 20px;
+}
