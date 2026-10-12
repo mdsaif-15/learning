@@ -15,6 +15,12 @@ const MidSection = () => {
             <Cart />
             <Cart />
             <Cart />
+            <Cart />
+            <Cart />
+            <Cart />
+            <Cart />
+            <Cart />
+            <Cart />
         </div>
     </>)
 }
