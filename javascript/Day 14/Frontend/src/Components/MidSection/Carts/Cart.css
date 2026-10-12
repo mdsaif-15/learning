@@ -1,8 +1,17 @@
 .cart{
-    display: grid;
     height:250px ;
     width: 150px;
     border: solid black 1px;
     border-radius: 15px;
     margin: 20px;
+}
+
+.image-box{
+    height:250px;
+    width: 150px;
+    display: flex;
+    /* border-radius: 15px; */
+}
+img{
+    border-radius: 15px;
 }
