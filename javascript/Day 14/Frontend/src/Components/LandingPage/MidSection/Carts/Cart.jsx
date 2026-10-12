@@ -4,7 +4,7 @@ const Cart = () => {
     return (<>
         <div className="cart">
             <div className="image-box">
-                <img src="src/Components/MidSection/Carts/image.jpg" />
+                <img src="src/Components/LandingPage/MidSection/Carts/image.jpg" />
                 <span>Rateing</span>
             </div>
             <div className="about-section">
