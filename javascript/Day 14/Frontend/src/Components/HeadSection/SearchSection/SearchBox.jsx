@@ -5,4 +5,4 @@ const SearchBox = () => {
         </div>
     </>)
 }
-export default SearchBox;   
+export default SearchBox;
