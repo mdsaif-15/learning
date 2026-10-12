@@ -8,12 +8,16 @@ import SearchSection from "./SearchSection/SearchSection.jsx"
 const HeadSection = () => {
     return (<>
         <div className="head-section">
-            <Brand />
-            <MovieButton />
-            <TVshowButton />
-            <LightModeButton />
-            <SignInButton />
-            <SearchSection />
+            <div className="name-section">
+                <Brand />
+                <MovieButton />
+                <TVshowButton />
+                <LightModeButton />
+                <SignInButton />
+            </div>
+            <div className="search-outerdiv">
+                <SearchSection />
+            </div>
         </div>
     </>)
 }

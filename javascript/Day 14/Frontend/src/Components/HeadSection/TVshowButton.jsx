@@ -1,7 +1,7 @@
 const TVshowButton = () => {
     return (<>
         <div className="web-show-button">
-            <button><a>TV show</a></button>
+            <button className="btn"><a>TV show</a></button>
         </div>
     </>)
 }

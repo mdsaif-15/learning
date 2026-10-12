@@ -1,7 +1,7 @@
 const SearchBox = () => {
     return (<>
-        <div className="search-box">
-            <input className="" placeholder="Search" />
+        <div className="search-div" >
+            <input className="search-box" placeholder="Search" />
         </div>
     </>)
 }

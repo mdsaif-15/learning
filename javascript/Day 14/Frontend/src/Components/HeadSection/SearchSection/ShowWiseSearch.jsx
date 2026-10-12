@@ -2,10 +2,10 @@ const ShowWiseSearch = () => {
     return (<>
         <div>
             <label></label>
-            <select>
-                <option>All</option>
-                <option>Movie</option>
-                <option>Series</option>
+            <select className="option-button">
+                <option className="options">All</option>
+                <option className="options">Movie</option>
+                <option className="options">Series</option>
             </select>
         </div>
     </>);

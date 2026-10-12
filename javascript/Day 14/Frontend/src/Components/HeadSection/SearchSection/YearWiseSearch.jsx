@@ -8,7 +8,8 @@ const YearWiseSearch = () => {
     return (<>
         <div>
             <label></label>
-            <select value={year} onChange={(e) => setYear(e.target.value)}>
+            <select value={year} onChange={(e) => setYear(e.target.value)}
+                className="option-button year-option">
                 <option value="">Year</option>
 
                 {years.map((year) => (

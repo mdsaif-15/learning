@@ -1,0 +1,41 @@
+.search-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.option-button {
+    height: 20px;
+    width: 50px;
+    background-color: #DAA958;
+    border: solid #A33B6D 1px;
+    border-radius: 5px;
+}
+
+.year-option {
+    width: 60px;
+}
+
+.options {
+    height: 20px;
+    width: 50px;
+    background-color: #DAA958;
+    border: solid #A33B6D 1px;
+    border-radius: 5px;
+}
+
+.search-box {
+    height: 20px;
+    width: 150px;
+    background-color: #DAA958;
+    border: solid #A33B6D 1px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.search-box::placeholder {
+    color: black;
+    padding-left: 8px;
+}
