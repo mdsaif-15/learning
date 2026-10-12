@@ -1,9 +1,10 @@
 .search-section {
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-top: 10px;
-    padding-bottom: 0px;
+    justify-content: center;
+    /* padding-left: 40px;
+    padding-right: 40px; */
 }
 
 .option-button {
@@ -13,6 +14,7 @@
     border: solid #A33B6D 1px;
     border-radius: 5px;
     color: #FFFFFF;
+    margin-right: 70px;
 }
 
 .year-option {
@@ -25,9 +27,11 @@
     background-color: #DAA958;
     border: solid #A33B6D 1px;
     border-radius: 5px;
+    margin-right: 40px;
 }
 
 .search-box {
+    margin-right: 100px;
     height: 30px;
     width: 300px;
     background-color: black;
@@ -38,7 +42,7 @@
 }
 
 .search-box::placeholder {
-    color:#FFFFFF;
+    color: #FFFFFF;
     padding-left: 8px;
     font-size: small;
 }
