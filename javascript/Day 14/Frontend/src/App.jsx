@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import HeadSection from './Components/HeadSection/HeadSection'
-import MidSection from './Components/MidSection/MidSection'
+import HeadSection from './Components/LandingPage/HeadSection/HeadSection'
+import MidSection from './Components/LandingPage/MidSection/MidSection'
 function App() {
   const [count, setCount] = useState(0)
 
