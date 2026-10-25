@@ -2,9 +2,12 @@ import "./TopCart.css"
 const TopCart = () => {
     return (<>
         <div className="actor-card">
-            <img src="#" alt="" />
-            <P>About the Actor</P>
+            <img></img>
+
         </div>
-    </>)
+        <div>
+            <p>About the Actor</p>
+        </div>
+    </>);
 }
 export default TopCart;
