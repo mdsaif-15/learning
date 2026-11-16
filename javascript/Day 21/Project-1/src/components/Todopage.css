@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-box {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid black 2px;
+}
