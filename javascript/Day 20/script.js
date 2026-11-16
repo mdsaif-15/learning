@@ -38,28 +38,32 @@
 
 //Q2 
 
-function groupBy(array, key) {
+// function groupBy(array, key) {
 
-    return array.reduce((result, item) => {
-        const group = item[key] ?? "unknown";
+//     return array.reduce((result, item) => {
+//         const group = item[key] ?? "unknown";
 
-        if (!result[group]) {
-            result[group] = [];
-        }
+//         if (!result[group]) {
+//             result[group] = [];
+//         }
 
-        result[group].push(item);
-        return result;
+//         result[group].push(item);
+//         return result;
 
-    }, {});
-}
-const products = [
-    { name: "iPhone", category: "Mobile", price: 70000 },
-    { name: "Samsung", category: "Mobile", price: 55000 },
-    { name: "MacBook", category: "Laptop", price: 120000 },
-    { name: "Dell", category: "Laptop", price: 80000 },
-    { name: "AirPods", category: "Audio", price: 15000 }
-];
+//     }, {});
+// }
+// const products = [
+//     { name: "iPhone", category: "Mobile", price: 70000 },
+//     { name: "Samsung", category: "Mobile", price: 55000 },
+//     { name: "MacBook", category: "Laptop", price: 120000 },
+//     { name: "Dell", category: "Laptop", price: 80000 },
+//     { name: "AirPods", category: "Audio", price: 15000 }
+// ];
 
-const groupedProducts = groupBy(products, "category");
+// const groupedProducts = groupBy(products, "category");
 
-console.log(groupedProducts);
+// console.log(groupedProducts);
+
+
+// Q3
+
