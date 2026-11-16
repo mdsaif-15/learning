@@ -1,4 +1,8 @@
+import "./TaskList.css"
 const TaskList = () => {
+    const task = [
+        "Drink Water", "Quick stretch", "Text a friend", "Unsubscribe"
+    ]
     return (<>
         <div className="task-box">
             <div className="title-box">

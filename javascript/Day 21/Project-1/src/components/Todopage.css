@@ -6,8 +6,48 @@
 .main-box {
     width: 500px;
     height: 600px;
-    display: flex;
+
     justify-content: center;
     border-radius: 20px;
     border: solid black 2px;
+}
+
+.navbar {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.add-button {
+    height: 30px;
+    width: 40px;
+    color: brown;
+    border: solid brown 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.filter-box {
+    /* height: 30px;
+    width: 40px;
+    color: brown;
+    border: solid brown 1px;
+    background-color: green;
+    border-radius: 5px; */
+}
+
+.option-button {
+    height: 30px;
+    width: fit-content;
+    color: brown;
+    border: solid brown 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
 }

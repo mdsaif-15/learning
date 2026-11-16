@@ -1,0 +1,21 @@
+.task-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chack-box {
+    height: 10px;
+    width: 10px;
+    border: solid brown 1px;
+    border-radius: 50%;
+}
+
+.delete-button {
+    height: 30px;
+    width: 40px;
+    color: brown;
+    border: solid brown 1px;
+    background-color: white;
+    border-radius: 5px;
+
+}

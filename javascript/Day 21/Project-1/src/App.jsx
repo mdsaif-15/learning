@@ -6,6 +6,8 @@ function App() {
     <>
       <div className="main-box">
         <TodoList />
+        <br />
+        <br />
         <TaskList />
       </div>
     </>
