@@ -1,0 +1,13 @@
+.search-bar-container {
+  display: flex;
+  flex: 1;
+}
+
+.search-bar-input {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid black;
+  outline: none;
+  background-color: #ffffff;
+}

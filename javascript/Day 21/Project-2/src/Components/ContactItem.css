@@ -1,0 +1,13 @@
+.contact-header-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 2fr 1.2fr 1.8fr;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.contact-header-row h4 {
+  margin: 0;
+  font-size: 14px;
+}
