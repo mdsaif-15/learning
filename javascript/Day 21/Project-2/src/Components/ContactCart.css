@@ -1,6 +1,6 @@
 .contact-cart-row {
   display: grid;
-  grid-template-columns: 2fr 1.5fr 2fr 1.2fr 1.2fr;
+  grid-template-columns: 2fr 1.5fr 2fr 1.2fr 1.8fr;
   padding: 10px;
   align-items: center;
   border-bottom: 1px solid #ccc;
@@ -24,7 +24,14 @@
   background-color: #ffffff;
 }
 
-.view-detail-btn {
+.action-div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.view-detail-btn,
+.delete-btn {
   padding: 5px 10px;
   font-size: 13px;
   border: 1px solid black;

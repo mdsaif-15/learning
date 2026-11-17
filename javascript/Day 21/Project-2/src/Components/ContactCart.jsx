@@ -1,6 +1,6 @@
 import "./ContactCart.css";
 
-const ContactCart = ({ contact, ContactList, onSelectContact }) => {
+const ContactCart = ({ contact, ContactList, onSelectContact, onDeleteContact }) => {
     const item = contact || ContactList;
     if (!item) return null;
 
@@ -24,6 +24,12 @@ const ContactCart = ({ contact, ContactList, onSelectContact }) => {
                     onClick={() => onSelectContact && onSelectContact(item)}
                 >
                     View Details
+                </button>
+                <button
+                    className="delete-btn"
+                    onClick={() => onDeleteContact && onDeleteContact(item.id)}
+                >
+                    Delete
                 </button>
             </div>
         </div>

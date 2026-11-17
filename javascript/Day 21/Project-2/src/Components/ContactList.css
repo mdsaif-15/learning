@@ -1,4 +1,18 @@
 .contact-list-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+.empty-state-container {
+  padding: 30px 20px;
+  text-align: center;
+  border: 1px dashed black;
+  margin: 10px 0;
+  background-color: #fafafa;
+}
+
+.empty-state-text {
+  font-size: 15px;
+  color: #333333;
 }
