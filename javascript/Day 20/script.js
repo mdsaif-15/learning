@@ -50,4 +50,14 @@ function groupBy(array, key) {
     }
     return result;
 }
-console.log(groupBy(products, "Audio"))
+// console.log(groupBy(products, "Audio"))
+
+const arr = [1, [2, [3, [4, [5]]]], [6, 7]];
+
+function deepFlatten(arr) {
+    arr.reduce(
+        (acc, val) => acc.concat(Array.isArray(val) ? deepFlatten(val) : val), 
+        []
+    );
+};
+console.log(deepFlatten(arr)); // [1, 2, 3, 4, 5, 6, 7]
